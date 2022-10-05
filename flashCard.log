@@ -1,5 +1,229 @@
-__init__ 2022-10-04 14:51:57,546 DEBUG: State set as VI - U.S. Virgin Islands
-__init__ 2022-10-04 14:51:58,767 DEBUG: The state senators for U.S. Virgin Islands are 
-__init__ 2022-10-04 14:52:00,018 DEBUG: The state House Representatives for U.S. Virgin Islands are 
-__init__ 2022-10-04 14:52:00,850 DEBUG: The governor of U.S. Virgin Islands is Albert Bryan
-__init__ 2022-10-04 14:52:01,821 DEBUG: Got 100 questions from online
+__init__ 2022-10-04 17:06:38,948 DEBUG: Got 100 questions from online
+__init__ 2022-10-04 17:06:38,948 DEBUG: State set as AL - Alabama
+__init__ 2022-10-04 17:06:38,954 DEBUG: The state senators for Alabama are Richard Shelby, Tommy Tuberville
+__init__ 2022-10-04 17:06:39,774 DEBUG: The governor of Alabama is Kay Ivey
+__init__ 2022-10-04 17:06:39,777 DEBUG: The state House Representatives for Alabama are Jerry Carl, Barry Moore, Mike Rogers, Robert Aderholt, Mo Brooks, Gary Palmer, Terri Sewell
+__init__ 2022-10-04 17:06:40,747 DEBUG: State set as AK - Alaska
+__init__ 2022-10-04 17:06:40,753 DEBUG: The state senators for Alaska are Lisa Murkowski, Daniel S. Sullivan
+__init__ 2022-10-04 17:06:41,628 DEBUG: The governor of Alaska is Mike Dunleavy
+__init__ 2022-10-04 17:06:41,631 DEBUG: The state House Representatives for Alaska are Mary Peltola
+__init__ 2022-10-04 17:06:42,598 DEBUG: State set as AZ - Arizona
+__init__ 2022-10-04 17:06:42,605 DEBUG: The state senators for Arizona are Mark Kelly, Kyrsten Sinema
+__init__ 2022-10-04 17:06:44,046 DEBUG: The governor of Arizona is Doug Ducey
+__init__ 2022-10-04 17:06:44,048 DEBUG: The state House Representatives for Arizona are Tom O'Halleran, Ann Kirkpatrick, Raul Grijalva, Paul Gosar, Andy Biggs, David Schweikert, Ruben Gallego, Debbie Lesko, Greg Stanton
+__init__ 2022-10-04 17:06:45,006 DEBUG: State set as AR - Arkansas
+__init__ 2022-10-04 17:06:45,012 DEBUG: The state senators for Arkansas are John Boozman, Tom Cotton
+__init__ 2022-10-04 17:06:46,013 DEBUG: The governor of Arkansas is Asa Hutchinson
+__init__ 2022-10-04 17:06:46,016 DEBUG: The state House Representatives for Arkansas are Rick Crawford, French Hill, Steve Womack, Bruce Westerman
+__init__ 2022-10-04 17:06:47,101 DEBUG: State set as CA - California
+__init__ 2022-10-04 17:06:47,107 DEBUG: The state senators for California are Dianne Feinstein, Alex Padilla
+__init__ 2022-10-04 17:06:48,110 DEBUG: The governor of California is Gavin Newsom
+__init__ 2022-10-04 17:06:48,113 DEBUG: The state House Representatives for California are Doug LaMalfa, Jared Huffman, John Garamendi, Tom McClintock, Mike Thompson, Doris Matsui, Ami Bera, Jay Obernolte, Jerry McNerney, Josh Harder, Mark DeSaulnier, Nancy Pelosi, Barbara Lee, Jackie Speier, Eric Swalwell, Jim Costa, Ro Khanna, Anna Eshoo, Zoe Lofgren, Jimmy Panetta, David G. Valadao, Connie Conway, Kevin McCarthy, Salud Carbajal, Mike Garcia, Julia Brownley, Judy Chu, Adam Schiff, Tony Cárdenas, Brad Sherman, Pete Aguilar, Grace Napolitano, Ted Lieu, Jimmy Gomez, Norma Torres, Raul Ruiz, Karen Bass, Linda Sánchez, Young Kim, Lucille Roybal-Allard, Mark Takano, Ken Calvert, Maxine Waters, Nanette Barragán, Katie Porter, Lou Correa, Alan Lowenthal, Michelle Steel, Mike Levin, Darrell Issa, Juan Vargas, Scott Peters, Sara Jacobs
+__init__ 2022-10-04 17:06:49,073 DEBUG: State set as CO - Colorado
+__init__ 2022-10-04 17:06:49,079 DEBUG: The state senators for Colorado are Michael Bennet, John Hickenlooper
+__init__ 2022-10-04 17:06:50,123 DEBUG: The governor of Colorado is Jared Polis
+__init__ 2022-10-04 17:06:50,125 DEBUG: The state House Representatives for Colorado are Diana DeGette, Joe Neguse, Lauren Boebert, Ken Buck, Doug Lamborn, Jason Crow, Ed Perlmutter, Vacant
+__init__ 2022-10-04 17:06:51,027 DEBUG: State set as CT - Connecticut
+__init__ 2022-10-04 17:06:51,034 DEBUG: The state senators for Connecticut are Richard Blumenthal, Christopher S. Murphy
+__init__ 2022-10-04 17:06:51,991 DEBUG: The governor of Connecticut is Ned Lamont
+__init__ 2022-10-04 17:06:51,995 DEBUG: The state House Representatives for Connecticut are John Larson, Joe Courtney, Rosa L. DeLauro, Jim Himes, Jahana Hayes
+__init__ 2022-10-04 17:06:52,936 DEBUG: State set as DE - Delaware
+__init__ 2022-10-04 17:06:52,943 DEBUG: The state senators for Delaware are Tom Carper, Chris Coons
+__init__ 2022-10-04 17:06:53,866 DEBUG: The governor of Delaware is John C. Carney Jr.
+__init__ 2022-10-04 17:06:53,868 DEBUG: The state House Representatives for Delaware are Lisa Blunt Rochester
+__init__ 2022-10-04 17:06:54,954 DEBUG: State set as FL - Florida
+__init__ 2022-10-04 17:06:54,960 DEBUG: The state senators for Florida are Marco Rubio, Rick Scott
+__init__ 2022-10-04 17:06:55,919 DEBUG: The governor of Florida is Ron DeSantis
+__init__ 2022-10-04 17:06:55,921 DEBUG: The state House Representatives for Florida are Matt Gaetz, Neal Dunn, Kat Cammack, John Rutherford, Alfred Lawson, Michael Waltz, Stephanie Murphy, Bill Posey, Darren Soto, Val Demings, Daniel Webster, Gus M. Bilirakis, Vacant, Kathy Castor, Scott Franklin, Vern Buchanan, Greg Steube, Brian Mast, Byron Donalds, Sheila Cherfilus-McCormick, Lois Frankel, Vacant, Debbie Wasserman Schultz, Frederica S. Wilson, Mario Diaz-Balart, Carlos Gimenez, Maria Elvira Salazar, Vacant
+__init__ 2022-10-04 17:06:56,854 DEBUG: State set as GA - Georgia
+__init__ 2022-10-04 17:06:56,861 DEBUG: The state senators for Georgia are Jon Ossoff, Raphael Warnock
+__init__ 2022-10-04 17:06:57,816 DEBUG: The governor of Georgia is Brian Kemp
+__init__ 2022-10-04 17:06:57,819 DEBUG: The state House Representatives for Georgia are Earl Carter, Sanford Bishop Jr., Drew Ferguson, Hank Johnson, Nikema Williams, Lucy McBath, Carolyn Bourdeaux, Austin Scott, Andrew Clyde, Jody Hice, Barry Loudermilk, Rick Allen, David Scott, Marjorie Taylor Greene
+__init__ 2022-10-04 17:06:58,749 DEBUG: State set as HI - Hawaii
+__init__ 2022-10-04 17:06:58,757 DEBUG: The state senators for Hawaii are Mazie K. Hirono, Brian E. Schatz
+__init__ 2022-10-04 17:06:59,788 DEBUG: The governor of Hawaii is David Ige
+__init__ 2022-10-04 17:06:59,790 DEBUG: The state House Representatives for Hawaii are Ed Case, Kaiali'i Kahele
+__init__ 2022-10-04 17:07:01,136 DEBUG: State set as ID - Idaho
+__init__ 2022-10-04 17:07:01,142 DEBUG: The state senators for Idaho are Mike Crapo, Jim Risch
+__init__ 2022-10-04 17:07:02,115 DEBUG: The governor of Idaho is Brad Little
+__init__ 2022-10-04 17:07:02,119 DEBUG: The state House Representatives for Idaho are Russ Fulcher, Michael K. Simpson
+__init__ 2022-10-04 17:07:03,047 DEBUG: State set as IL - Illinois
+__init__ 2022-10-04 17:07:03,055 DEBUG: The state senators for Illinois are Tammy Duckworth, Dick Durbin
+__init__ 2022-10-04 17:07:04,014 DEBUG: The governor of Illinois is J.B. Pritzker
+__init__ 2022-10-04 17:07:04,017 DEBUG: The state House Representatives for Illinois are Bobby Rush, Robin Kelly, Marie Newman, Jesus Garcia, Mike Quigley, Sean Casten, Danny K. Davis, Raja Krishnamoorthi, Jan Schakowsky, Brad Schneider, Bill Foster, Mike Bost, Rodney Davis, Lauren Underwood, Mary Miller, Adam Kinzinger, Cheri Bustos, Darin LaHood
+__init__ 2022-10-04 17:07:04,977 DEBUG: State set as IN - Indiana
+__init__ 2022-10-04 17:07:04,984 DEBUG: The state senators for Indiana are Mike Braun, Todd C. Young
+__init__ 2022-10-04 17:07:06,006 DEBUG: The governor of Indiana is Eric Holcomb
+__init__ 2022-10-04 17:07:06,009 DEBUG: The state House Representatives for Indiana are Frank Mrvan, Vacant, Jim Banks, Jim Baird, Victoria Spartz, Greg Pence, André Carson, Larry Bucshon, Trey Hollingsworth
+__init__ 2022-10-04 17:07:07,046 DEBUG: State set as IA - Iowa
+__init__ 2022-10-04 17:07:07,053 DEBUG: The state senators for Iowa are Joni Ernst, Chuck Grassley
+__init__ 2022-10-04 17:07:08,101 DEBUG: The governor of Iowa is Kim Reynolds
+__init__ 2022-10-04 17:07:08,105 DEBUG: The state House Representatives for Iowa are Ashley Hinson, Mariannette Miller-Meeks, Cindy Axne, Randy Feenstra
+__init__ 2022-10-04 17:07:09,039 DEBUG: State set as KS - Kansas
+__init__ 2022-10-04 17:07:09,045 DEBUG: The state senators for Kansas are Roger Marshall, Jerry Moran
+__init__ 2022-10-04 17:07:10,010 DEBUG: The governor of Kansas is Laura Kelly
+__init__ 2022-10-04 17:07:10,014 DEBUG: The state House Representatives for Kansas are Tracey Mann, Jacob LaTurner, Sharice Davids, Ron Estes
+__init__ 2022-10-04 17:07:11,271 DEBUG: State set as KY - Kentucky
+__init__ 2022-10-04 17:07:11,276 DEBUG: The state senators for Kentucky are Mitch McConnell, Rand Paul
+__init__ 2022-10-04 17:07:12,311 DEBUG: The governor of Kentucky is Andy Beshear
+__init__ 2022-10-04 17:07:12,317 DEBUG: The state House Representatives for Kentucky are James Comer Jr., Brett Guthrie, John A. Yarmuth, Thomas Massie, Hal Rogers, Andy Barr
+__init__ 2022-10-04 17:07:13,434 DEBUG: State set as LA - Louisiana
+__init__ 2022-10-04 17:07:13,440 DEBUG: The state senators for Louisiana are Bill Cassidy, John Neely Kennedy
+__init__ 2022-10-04 17:07:14,777 DEBUG: The governor of Louisiana is John Bel Edwards
+__init__ 2022-10-04 17:07:14,781 DEBUG: The state House Representatives for Louisiana are Steve Scalise, Troy Carter, Clay Higgins, Mike Johnson, Julia Letlow, Garret Graves
+__init__ 2022-10-04 17:07:15,817 DEBUG: State set as ME - Maine
+__init__ 2022-10-04 17:07:15,823 DEBUG: The state senators for Maine are Susan Collins, Angus King
+__init__ 2022-10-04 17:07:16,783 DEBUG: The governor of Maine is Janet T. Mills
+__init__ 2022-10-04 17:07:16,785 DEBUG: The state House Representatives for Maine are Chellie Pingree, Jared Golden
+__init__ 2022-10-04 17:07:17,706 DEBUG: State set as MD - Maryland
+__init__ 2022-10-04 17:07:17,711 DEBUG: The state senators for Maryland are Ben Cardin, Chris Van Hollen
+__init__ 2022-10-04 17:07:18,743 DEBUG: The governor of Maryland is Larry Hogan
+__init__ 2022-10-04 17:07:18,745 DEBUG: The state House Representatives for Maryland are Andrew Harris, Dutch Ruppersberger, John Sarbanes, Anthony G. Brown, Steny Hoyer, David Trone, Kweisi Mfume, Jamie Raskin
+__init__ 2022-10-04 17:07:19,623 DEBUG: State set as MA - Massachusetts
+__init__ 2022-10-04 17:07:19,630 DEBUG: The state senators for Massachusetts are Edward J. Markey, Elizabeth Warren
+__init__ 2022-10-04 17:07:20,616 DEBUG: The governor of Massachusetts is Charles D. Baker
+__init__ 2022-10-04 17:07:20,620 DEBUG: The state House Representatives for Massachusetts are Richard Neal, Jim McGovern, Lori Trahan, Jake Auchincloss, Katherine Clark, Seth Moulton, Ayanna Pressley, Stephen Lynch, Bill Keating
+__init__ 2022-10-04 17:07:21,568 DEBUG: State set as MI - Michigan
+__init__ 2022-10-04 17:07:21,576 DEBUG: The state senators for Michigan are Gary Peters, Debbie Stabenow
+__init__ 2022-10-04 17:07:22,541 DEBUG: The governor of Michigan is Gretchen Whitmer
+__init__ 2022-10-04 17:07:22,544 DEBUG: The state House Representatives for Michigan are Jack Bergman, Bill Huizenga, Peter Meijer, John Moolenaar, Dan Kildee, Fred Upton, Tim Walberg, Elissa Slotkin, Andy Levin, Lisa McClain, Haley Stevens, Debbie Dingell, Rashida Tlaib, Brenda Lawrence
+__init__ 2022-10-04 17:07:23,603 DEBUG: State set as MN - Minnesota
+__init__ 2022-10-04 17:07:23,609 DEBUG: The state senators for Minnesota are Amy Klobuchar, Tina Smith
+__init__ 2022-10-04 17:07:24,579 DEBUG: The governor of Minnesota is Tim Walz
+__init__ 2022-10-04 17:07:24,582 DEBUG: The state House Representatives for Minnesota are Brad Finstad, Angie Craig, Dean Phillips, Betty McCollum, Ilhan Omar, Tom Emmer, Michelle Fischbach, Pete Stauber
+__init__ 2022-10-04 17:07:25,648 DEBUG: State set as MS - Mississippi
+__init__ 2022-10-04 17:07:25,654 DEBUG: The state senators for Mississippi are Cindy Hyde-Smith, Roger Wicker
+__init__ 2022-10-04 17:07:26,750 DEBUG: The governor of Mississippi is Tate Reeves
+__init__ 2022-10-04 17:07:26,753 DEBUG: The state House Representatives for Mississippi are Trent Kelly, Bennie Thompson, Michael Guest, Steven Palazzo
+__init__ 2022-10-04 17:07:27,782 DEBUG: State set as MO - Missouri
+__init__ 2022-10-04 17:07:27,788 DEBUG: The state senators for Missouri are Roy Blunt, Josh Hawley
+__init__ 2022-10-04 17:07:28,767 DEBUG: The governor of Missouri is Mike Parson
+__init__ 2022-10-04 17:07:28,771 DEBUG: The state House Representatives for Missouri are Cori Bush, Ann Wagner, Blaine Luetkemeyer, Vicky Hartzler, Emanuel Cleaver, Sam Graves, Billy Long, Jason Smith
+__init__ 2022-10-04 17:07:29,715 DEBUG: State set as MT - Montana
+__init__ 2022-10-04 17:07:29,722 DEBUG: The state senators for Montana are Steve Daines, Jon Tester
+__init__ 2022-10-04 17:07:30,764 DEBUG: The governor of Montana is Greg Gianforte
+__init__ 2022-10-04 17:07:30,769 DEBUG: The state House Representatives for Montana are Matt Rosendale, Vacant, Vacant
+__init__ 2022-10-04 17:07:31,706 DEBUG: State set as NE - Nebraska
+__init__ 2022-10-04 17:07:31,714 DEBUG: The state senators for Nebraska are Deb Fischer, Ben Sasse
+__init__ 2022-10-04 17:07:32,780 DEBUG: The governor of Nebraska is Pete Ricketts
+__init__ 2022-10-04 17:07:32,783 DEBUG: The state House Representatives for Nebraska are Mike Flood, Don Bacon, Adrian Smith
+__init__ 2022-10-04 17:07:33,905 DEBUG: State set as NV - Nevada
+__init__ 2022-10-04 17:07:33,912 DEBUG: The state senators for Nevada are Catherine Cortez Masto, Jacky Rosen
+__init__ 2022-10-04 17:07:34,876 DEBUG: The governor of Nevada is Steve Sisolak
+__init__ 2022-10-04 17:07:34,879 DEBUG: The state House Representatives for Nevada are Dina Titus, Mark Amodei, Susie Lee, Steven Horsford
+__init__ 2022-10-04 17:07:35,950 DEBUG: State set as NH - New Hampshire
+__init__ 2022-10-04 17:07:35,957 DEBUG: The state senators for New Hampshire are Maggie Hassan, Jeanne Shaheen
+__init__ 2022-10-04 17:07:36,899 DEBUG: The governor of New Hampshire is Chris Sununu
+__init__ 2022-10-04 17:07:36,901 DEBUG: The state House Representatives for New Hampshire are Chris Pappas, Annie Kuster
+__init__ 2022-10-04 17:07:37,817 DEBUG: State set as NJ - New Jersey
+__init__ 2022-10-04 17:07:37,823 DEBUG: The state senators for New Jersey are Cory Booker, Bob Menendez
+__init__ 2022-10-04 17:07:38,798 DEBUG: The governor of New Jersey is Phil Murphy
+__init__ 2022-10-04 17:07:38,800 DEBUG: The state House Representatives for New Jersey are Donald Norcross, Jeff Van Drew, Andrew Kim, Chris Smith, Josh Gottheimer, Frank Pallone Jr., Tom Malinowski, Albio Sires, Bill Pascrell, Donald Payne Jr., Mikie Sherrill, Bonnie Watson Coleman
+__init__ 2022-10-04 17:07:39,744 DEBUG: State set as NM - New Mexico
+__init__ 2022-10-04 17:07:39,749 DEBUG: The state senators for New Mexico are Martin Heinrich, Ben Ray Luján
+__init__ 2022-10-04 17:07:40,723 DEBUG: The governor of New Mexico is Michelle Lujan Grisham
+__init__ 2022-10-04 17:07:40,726 DEBUG: The state House Representatives for New Mexico are Melanie Ann Stansbury, Yvette Herrell, Teresa Leger Fernandez
+__init__ 2022-10-04 17:07:41,648 DEBUG: State set as NY - New York
+__init__ 2022-10-04 17:07:41,654 DEBUG: The state senators for New York are Kirsten Gillibrand, Chuck Schumer
+__init__ 2022-10-04 17:07:42,623 DEBUG: The governor of New York is Kathy Hochul
+__init__ 2022-10-04 17:07:42,626 DEBUG: The state House Representatives for New York are Lee Zeldin, Andrew Garbarino, Tom Suozzi, Kathleen Rice, Gregory W. Meeks, Grace Meng, Nydia Velazquez, Hakeem Jeffries, Yvette D. Clarke, Jerrold Nadler, Nicole Malliotakis, Carolyn B. Maloney, Adriano Espaillat, Alexandria Ocasio-Cortez, Ritchie Torres, Jamaal Bowman, Mondaire Jones, Sean Maloney, Pat Ryan, Paul Tonko, Elise Stefanik, Claudia Tenney, Joe Sempolinski, John Katko, Joseph Morelle, Brian Higgins, Christopher Jacobs
+__init__ 2022-10-04 17:07:43,563 DEBUG: State set as NC - North Carolina
+__init__ 2022-10-04 17:07:43,569 DEBUG: The state senators for North Carolina are Richard Burr, Thom Tillis
+__init__ 2022-10-04 17:07:44,553 DEBUG: The governor of North Carolina is Roy Cooper
+__init__ 2022-10-04 17:07:44,556 DEBUG: The state House Representatives for North Carolina are G.K. Butterfield, Deborah Ross, Gregory Murphy, David Price, Virginia Foxx, Kathy Manning, David Rouzer, Richard Hudson, Dan Bishop, Patrick T. McHenry, Madison Cawthorn, Alma Adams, Ted Budd, Vacant
+__init__ 2022-10-04 17:07:45,497 DEBUG: State set as ND - North Dakota
+__init__ 2022-10-04 17:07:45,503 DEBUG: The state senators for North Dakota are Kevin Cramer, John Hoeven
+__init__ 2022-10-04 17:07:46,457 DEBUG: The governor of North Dakota is Doug Burgum
+__init__ 2022-10-04 17:07:46,459 DEBUG: The state House Representatives for North Dakota are Kelly Armstrong
+__init__ 2022-10-04 17:07:47,377 DEBUG: State set as OH - Ohio
+__init__ 2022-10-04 17:07:47,384 DEBUG: The state senators for Ohio are Sherrod Brown, Rob Portman
+__init__ 2022-10-04 17:07:48,327 DEBUG: The governor of Ohio is Richard Michael DeWine
+__init__ 2022-10-04 17:07:48,329 DEBUG: The state House Representatives for Ohio are Steve Chabot, Brad Wenstrup, Joyce Beatty, Jim Jordan, Bob Latta, Bill Johnson, Bob Gibbs, Warren Davidson, Marcy Kaptur, Michael Turner, Shontel Brown, Troy Balderson, Tim Ryan, David Joyce, Mike Carey, Anthony Gonzalez
+__init__ 2022-10-04 17:07:49,316 DEBUG: State set as OK - Oklahoma
+__init__ 2022-10-04 17:07:49,321 DEBUG: The state senators for Oklahoma are Jim Inhofe, James Lankford
+__init__ 2022-10-04 17:07:50,266 DEBUG: The governor of Oklahoma is Kevin Stitt
+__init__ 2022-10-04 17:07:50,269 DEBUG: The state House Representatives for Oklahoma are Kevin Hern, Markwayne Mullin, Frank Lucas, Tom Cole, Stephanie Bice
+__init__ 2022-10-04 17:07:51,267 DEBUG: State set as OR - Oregon
+__init__ 2022-10-04 17:07:51,274 DEBUG: The state senators for Oregon are Jeff Merkley, Ron Wyden
+__init__ 2022-10-04 17:07:52,160 DEBUG: The governor of Oregon is Kate Brown
+__init__ 2022-10-04 17:07:52,164 DEBUG: The state House Representatives for Oregon are Suzanne Bonamici, Cliff Bentz, Earl Blumenauer, Peter DeFazio, Kurt Schrader, Vacant
+__init__ 2022-10-04 17:07:53,192 DEBUG: State set as PA - Pennsylvania
+__init__ 2022-10-04 17:07:53,198 DEBUG: The state senators for Pennsylvania are Bob Casey Jr., Pat Toomey
+__init__ 2022-10-04 17:07:54,009 DEBUG: The governor of Pennsylvania is Tom Wolf
+__init__ 2022-10-04 17:07:54,011 DEBUG: The state House Representatives for Pennsylvania are Brian Fitzpatrick, Brendan Boyle, Dwight Evans, Madeleine Dean, Mary Gay Scanlon, Chrissy Houlahan, Susan Wild, Matt Cartwright, Dan Meuser, Scott Perry, Lloyd Smucker, Fred Keller, John Joyce, Guy Reschenthaler, Glenn Thompson, Mike Kelly, Conor Lamb, Michael Doyle
+__init__ 2022-10-04 17:07:55,000 DEBUG: State set as RI - Rhode Island
+__init__ 2022-10-04 17:07:55,006 DEBUG: The state senators for Rhode Island are Jack Reed, Sheldon Whitehouse
+__init__ 2022-10-04 17:07:55,916 DEBUG: The governor of Rhode Island is Daniel McKee
+__init__ 2022-10-04 17:07:55,919 DEBUG: The state House Representatives for Rhode Island are David N. Cicilline, Jim Langevin
+__init__ 2022-10-04 17:07:56,836 DEBUG: State set as SC - South Carolina
+__init__ 2022-10-04 17:07:56,844 DEBUG: The state senators for South Carolina are Lindsey Graham, Tim Scott
+__init__ 2022-10-04 17:07:57,688 DEBUG: The governor of South Carolina is Henry McMaster
+__init__ 2022-10-04 17:07:57,691 DEBUG: The state House Representatives for South Carolina are Nancy Mace, Joe Wilson, Jeff Duncan, William Timmons, Ralph Norman, James Clyburn, Tom Rice
+__init__ 2022-10-04 17:07:58,621 DEBUG: State set as SD - South Dakota
+__init__ 2022-10-04 17:07:58,628 DEBUG: The state senators for South Dakota are Mike Rounds, John Thune
+__init__ 2022-10-04 17:07:59,451 DEBUG: The governor of South Dakota is Kristi L. Noem
+__init__ 2022-10-04 17:07:59,453 DEBUG: The state House Representatives for South Dakota are Dusty Johnson
+__init__ 2022-10-04 17:08:00,469 DEBUG: State set as TN - Tennessee
+__init__ 2022-10-04 17:08:00,474 DEBUG: The state senators for Tennessee are Marsha Blackburn, Bill Hagerty
+__init__ 2022-10-04 17:08:01,296 DEBUG: The governor of Tennessee is Bill Lee
+__init__ 2022-10-04 17:08:01,299 DEBUG: The state House Representatives for Tennessee are Diana Harshbarger, Tim Burchett, Charles J. Fleischmann, Scott DesJarlais, Jim Cooper, John Rose, Mark Green, David Kustoff, Steve Cohen
+__init__ 2022-10-04 17:08:02,217 DEBUG: State set as TX - Texas
+__init__ 2022-10-04 17:08:02,223 DEBUG: The state senators for Texas are John Cornyn, Ted Cruz
+__init__ 2022-10-04 17:08:03,072 DEBUG: The governor of Texas is Greg Abbott
+__init__ 2022-10-04 17:08:03,074 DEBUG: The state House Representatives for Texas are Louis B. Gohmert Jr., Daniel Crenshaw, Van Taylor, Pat Fallon, Lance Gooden, Jake Ellzey, Lizzie Pannill Fletcher, Kevin Brady, Al Green, Michael McCaul, August Pfluger, Kay Granger, Ronny L. Jackson, Randy Weber, Vicente Gonzalez Jr., Veronica Escobar, Pete Sessions, Sheila Jackson Lee, Jodey Arrington, Joaquin Castro, Chip Roy, Troy Nehls, Tony Gonzales, Beth Van Duyne, Roger Williams, Michael C. Burgess, Michael Cloud, Henry Cuellar, Sylvia Garcia, Eddie Bernice Johnson, John Carter, Colin Allred, Marc Veasey, Mayra Flores, Lloyd Doggett, Brian Babin, Vacant, Vacant
+__init__ 2022-10-04 17:08:04,012 DEBUG: State set as UT - Utah
+__init__ 2022-10-04 17:08:04,018 DEBUG: The state senators for Utah are Mike Lee, Mitt Romney
+__init__ 2022-10-04 17:08:04,842 DEBUG: The governor of Utah is Spencer Cox
+__init__ 2022-10-04 17:08:04,846 DEBUG: The state House Representatives for Utah are Blake Moore, Chris Stewart, John Curtis, Burgess Owens
+__init__ 2022-10-04 17:08:05,929 DEBUG: State set as VT - Vermont
+__init__ 2022-10-04 17:08:05,937 DEBUG: The state senators for Vermont are Patrick Leahy, Bernie Sanders
+__init__ 2022-10-04 17:08:06,777 DEBUG: The governor of Vermont is Phil Scott
+__init__ 2022-10-04 17:08:06,780 DEBUG: The state House Representatives for Vermont are Peter Welch
+__init__ 2022-10-04 17:08:07,718 DEBUG: State set as VA - Virginia
+__init__ 2022-10-04 17:08:07,725 DEBUG: The state senators for Virginia are Tim Kaine, Mark Warner, Shelley Moore Capito, Joe Manchin III
+__init__ 2022-10-04 17:08:08,582 DEBUG: The governor of Virginia is Glenn Youngkin, Jim Justice
+__init__ 2022-10-04 17:08:08,585 DEBUG: The state House Representatives for Virginia are Virginia Foxx, Robert J. Wittman, Elaine Luria, Robert C. Scott, Aston Donald McEachin, Bob Good, Benjamin Lee Cline, Abigail Spanberger, Donald Sternoff Beyer Jr., H. Morgan Griffith, Jennifer Wexton, Gerald Edward Connolly, David McKinley, Alexander Mooney, Carol Miller
+__init__ 2022-10-04 17:08:09,590 DEBUG: State set as WA - Washington
+__init__ 2022-10-04 17:08:09,596 DEBUG: The state senators for Washington are Maria Cantwell, Patty Murray
+__init__ 2022-10-04 17:08:10,423 DEBUG: The governor of Washington is Jay Inslee
+__init__ 2022-10-04 17:08:10,426 DEBUG: The state House Representatives for Washington are Suzan DelBene, Rick Larsen, Jaime Herrera Beutler, Dan Newhouse, Cathy McMorris Rodgers, Derek Kilmer, Pramila Jayapal, Kim Schrier, D. Adam Smith, Marilyn Strickland
+__init__ 2022-10-04 17:08:11,354 DEBUG: State set as WV - West Virginia
+__init__ 2022-10-04 17:08:11,360 DEBUG: The state senators for West Virginia are Shelley Moore Capito, Joe Manchin III
+__init__ 2022-10-04 17:08:12,189 DEBUG: The governor of West Virginia is Jim Justice
+__init__ 2022-10-04 17:08:12,191 DEBUG: The state House Representatives for West Virginia are David McKinley, Alexander Mooney, Carol Miller
+__init__ 2022-10-04 17:08:13,106 DEBUG: State set as WI - Wisconsin
+__init__ 2022-10-04 17:08:13,113 DEBUG: The state senators for Wisconsin are Tammy Baldwin, Ronald Harold Johnson
+__init__ 2022-10-04 17:08:13,949 DEBUG: The governor of Wisconsin is Tony Evers
+__init__ 2022-10-04 17:08:13,951 DEBUG: The state House Representatives for Wisconsin are Bryan Steil, Mark Pocan, Ronald James Kind, Gwen Moore, Scott Fitzgerald, Glenn Grothman, Tom Tiffany, Mike Gallagher
+__init__ 2022-10-04 17:08:14,977 DEBUG: State set as WY - Wyoming
+__init__ 2022-10-04 17:08:14,983 DEBUG: The state senators for Wyoming are John Barrasso, Cynthia Lummis
+__init__ 2022-10-04 17:08:15,810 DEBUG: The governor of Wyoming is Mark Gordon
+__init__ 2022-10-04 17:08:15,812 DEBUG: The state House Representatives for Wyoming are Liz Cheney
+__init__ 2022-10-04 17:08:16,940 DEBUG: State set as DC - District of Columbia
+__init__ 2022-10-04 17:08:16,946 DEBUG: The state senators for District of Columbia are 
+__init__ 2022-10-04 17:08:17,757 DEBUG: The governor of District of Columbia is 
+__init__ 2022-10-04 17:08:17,760 DEBUG: The state House Representatives for District of Columbia are Eleanor Holmes Norton
+__init__ 2022-10-04 17:08:18,725 DEBUG: State set as AS - American Samoa
+__init__ 2022-10-04 17:08:18,731 DEBUG: The state senators for American Samoa are 
+__init__ 2022-10-04 17:08:19,579 DEBUG: The governor of American Samoa is Lemanu Palepoi Mauga
+__init__ 2022-10-04 17:08:19,582 DEBUG: The state House Representatives for American Samoa are Aumua Amata Radewagen
+__init__ 2022-10-04 17:08:20,534 DEBUG: State set as GU - Guam
+__init__ 2022-10-04 17:08:20,541 DEBUG: The state senators for Guam are 
+__init__ 2022-10-04 17:08:21,366 DEBUG: The governor of Guam is Lou Leon Guerrero
+__init__ 2022-10-04 17:08:21,371 DEBUG: The state House Representatives for Guam are Michael F.Q. San Nicolas
+__init__ 2022-10-04 17:08:22,283 DEBUG: State set as MP - Northern Mariana Islands
+__init__ 2022-10-04 17:08:22,289 DEBUG: The state senators for Northern Mariana Islands are 
+__init__ 2022-10-04 17:08:23,114 DEBUG: The governor of Northern Mariana Islands is Ralph Torres
+__init__ 2022-10-04 17:08:23,116 DEBUG: The state House Representatives for Northern Mariana Islands are Gregorio Kilili Camacho Sablan
+__init__ 2022-10-04 17:08:24,040 DEBUG: State set as PR - Puerto Rico
+__init__ 2022-10-04 17:08:24,046 DEBUG: The state senators for Puerto Rico are 
+__init__ 2022-10-04 17:08:24,870 DEBUG: The governor of Puerto Rico is Pedro Pierluisi Urrutia
+__init__ 2022-10-04 17:08:24,873 DEBUG: The state House Representatives for Puerto Rico are 
+__init__ 2022-10-04 17:08:25,780 DEBUG: State set as UM - United States Minor Outlying Islands
+__init__ 2022-10-04 17:08:25,787 DEBUG: The state senators for United States Minor Outlying Islands are 
+__init__ 2022-10-04 17:08:26,667 DEBUG: The governor of United States Minor Outlying Islands is 
+__init__ 2022-10-04 17:08:26,670 DEBUG: The state House Representatives for United States Minor Outlying Islands are 
+__init__ 2022-10-04 17:08:27,633 DEBUG: State set as VI - U.S. Virgin Islands
+__init__ 2022-10-04 17:08:27,639 DEBUG: The state senators for U.S. Virgin Islands are 
+__init__ 2022-10-04 17:08:28,472 DEBUG: The governor of U.S. Virgin Islands is Albert Bryan
+__init__ 2022-10-04 17:08:28,474 DEBUG: The state House Representatives for U.S. Virgin Islands are 

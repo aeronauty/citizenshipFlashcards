@@ -5,7 +5,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 from datetime import date
-
+from subprocess import DEVNULL, STDOUT, check_call
 
 # Some useful methods and facts
 us_state_to_abbrev = {
@@ -126,14 +126,10 @@ class flashCards(object):
     """
     Creates a flashcard object that enables you to change the content for a given state
     """
-    def __init__(self, state="NV", logLevel="WARN"):
+    def __init__(self, logLevel="WARN"):
         # Make the logger
         self._l = self._get_logger(logLevel)
         self._l.setLevel(logging.DEBUG)
-
-        # Find out the state and store in the object
-        self._state = state
-        self._l.debug(f"State set as {state} - {abbrev_to_us_state[state]}")
 
         # Get the list of senators and represenatives
         electedFolks = ['https://ballotpedia.org/List_of_current_members_of_the_U.S._Congress']
@@ -141,80 +137,91 @@ class flashCards(object):
         # Get the senators
         senatorData = pd.read_html(electedFolks[0])[3]
 
-        # Filter tha data
-        self._senators = senatorData[senatorData.stack().str.contains(abbrev_to_us_state[state]).groupby(level=0).any()]["Name"].to_list()
-        self._l.debug(f"The state senators for {abbrev_to_us_state[state]} are {', '.join(self._senators)}")
-
         # Get the representatives
         representativeData = pd.read_html(electedFolks[0])[6]  # gets all the tables from the url
-        self._representatives = \
-        representativeData[representativeData.stack().str.contains(abbrev_to_us_state[state]).groupby(level=0).any()][
-            "Name"].to_list()
-        self._l.debug(f"The state House Representatives for {abbrev_to_us_state[state]} are {', '.join(self._representatives)}")
 
         # Get the governors
         governorURL = "https://ballotpedia.org/List_of_governors_of_the_American_states"
-        governorData = pd.read_html(governorURL)[1]
-        self._governor = \
-        governorData[governorData.stack().str.contains(abbrev_to_us_state[state]).groupby(level=0).any()][
-            "Name"].to_list()
-        self._l.debug(
-            f"The governor of {abbrev_to_us_state[state]} is {', '.join(self._governor)}")
 
         # Get the list of questions and answers
         self.getQuestionsandAnswers()
         self.getQuestionsandAnswersUpdates()
         self._l.debug(f"Got {len(self.questions)} questions from online")
 
-        # Augment the answers to be specific to updates and for a state
-        self.stateSpecific = []
-        for i, question in enumerate(self.questions):
-            if "Senators now" in question:
-                try:
-                    self.answers[i] = self._senators
-                except:
-                    self.answers[i] = [f"Trick question. {self._state} isn't a state"]
-                self.stateSpecific.append(f"Updated for {self._state} on {date.today()}")
+        for i, state in enumerate(abbrev_to_us_state.keys()):
+            # Find out the state and store in the object
+            self._state = state
+            self._l.debug(f"State set as {state} - {abbrev_to_us_state[state]}")
 
-            elif "your U.S. Representative" in question:
-                self.answers[i] = self._representatives
-                self.stateSpecific.append(f"Updated for {self._state} on {date.today()}")
+            # Filter tha data
+            self._senators = \
+            senatorData[senatorData.stack().str.contains(abbrev_to_us_state[state]).groupby(level=0).any()][
+                "Name"].to_list()
+            self._l.debug(f"The state senators for {abbrev_to_us_state[state]} are {', '.join(self._senators)}")
 
-            elif "Governor of your state" in question:
-                try:
-                    self.answers[i] = self._governor
-                except:
+            governorData = pd.read_html(governorURL)[1]
+            self._governor = \
+                governorData[governorData.stack().str.contains(abbrev_to_us_state[state]).groupby(level=0).any()][
+                    "Name"].to_list()
+            self._l.debug(
+                f"The governor of {abbrev_to_us_state[state]} is {', '.join(self._governor)}")
 
-                    self.answers[i] = [f"Trick question. {self._state} doesn''t have a Gov."]
+            self._representatives = \
+                representativeData[
+                    representativeData.stack().str.contains(abbrev_to_us_state[state]).groupby(level=0).any()][
+                    "Name"].to_list()
+            self._l.debug(
+                f"The state House Representatives for {abbrev_to_us_state[state]} are {', '.join(self._representatives)}")
 
-                self.stateSpecific.append(f"Updated for {self._state} on {date.today()}")
+            # Augment the answers to be specific to updates and for a state
+            self.stateSpecific = []
+            for i, question in enumerate(self.questions):
+                if "Senators now" in question:
+                    try:
+                        self.answers[i] = self._senators
+                    except:
+                        self.answers[i] = [f"Trick question. {self._state} isn't a state"]
+                    self.stateSpecific.append(f"Updated for {self._state} on {date.today()}")
 
-            elif "capital of your state" in question:
-                try:
-                    self.answers[i] = [stateDict[abbrev_to_us_state[self._state]]]
-                except:
-                    self.answers[i] = ["Trick question. DC isn't a state"]
+                elif "your U.S. Representative" in question:
+                    self.answers[i] = self._representatives
+                    self.stateSpecific.append(f"Updated for {self._state} on {date.today()}")
 
-            elif "Answers will vary" in self.answers[i][0]:
-                self.answers[i] = self.answerUpdateDict[i + 1]
-                self.stateSpecific.append(f"Updated on {date.today()}")
+                elif "Governor of your state" in question:
+                    try:
+                        self.answers[i] = self._governor
+                    except:
 
-            elif "Visit" in self.answers[i][0]:
-                self.answers[i] = self. answerUpdateDict[i+1]
-                self.stateSpecific.append(f"Updated on {date.today()}")
-            else:
-                self.stateSpecific.append("")
+                        self.answers[i] = [f"Trick question. {self._state} doesn''t have a Gov."]
 
-        # Write the flashcard latex
-        self.writeFlashCards()
+                    self.stateSpecific.append(f"Updated for {self._state} on {date.today()}")
 
-        # Run the latex
-        os.system("pdflatex latexFile.tex")
+                elif "capital of your state" in question:
+                    try:
+                        self.answers[i] = [stateDict[abbrev_to_us_state[self._state]]]
+                    except:
+                        self.answers[i] = ["Trick question. DC isn't a state"]
 
-        # Move the output
-        fromFile = "latexFile.pdf"
-        toFile = f"flashCards/USCIS_CitizenshipTest_2008_FlashCards_{abbrev_to_us_state[self._state]}.pdf"
-        os.rename(fromFile, toFile)
+                elif "Answers will vary" in self.answers[i][0]:
+                    self.answers[i] = self.answerUpdateDict[i + 1]
+                    self.stateSpecific.append(f"Updated on {date.today()}")
+
+                elif "Visit" in self.answers[i][0]:
+                    self.answers[i] = self. answerUpdateDict[i+1]
+                    self.stateSpecific.append(f"Updated on {date.today()}")
+                else:
+                    self.stateSpecific.append("")
+
+            # Write the flashcard latex
+            self.writeFlashCards()
+
+            # Try and run it
+            check_call(["pdflatex", "latexFile.tex"], stdout=DEVNULL, stderr=STDOUT)
+
+            # Move the output
+            fromFile = "latexFile.pdf"
+            toFile = f"flashCards/USCIS_CitizenshipTest_2008_FlashCards_{abbrev_to_us_state[self._state]}.pdf"
+            os.rename(fromFile, toFile)
 
     def writeFlashCards(self):
 
@@ -257,7 +264,7 @@ class flashCards(object):
                     except:
                         answers += f"{{\\footnotesize{{\\textsl{{{ss}}}}}}}"
 
-                print(answers)
+
                 thisTex = texFlash(i + 1, f"{g}: {s}", q, answers.replace(r'[', r'\[').replace(r']', r'\]'))
                 f.write(thisTex)
 
@@ -494,14 +501,11 @@ class flashCards(object):
 
 
 if __name__ == "__main__":
-
-    for i, eachState in enumerate(abbrev_to_us_state.keys()):
-
-        logging.shutdown()
-        # Make a flashcard Object
-        myCards = flashCards(eachState, logLevel="DEBUG")
-        myCards._l.handlers.clear()
-        logging.shutdown()
+    logging.shutdown()
+    # Make a flashcard Object
+    myCards = flashCards(logLevel="DEBUG")
+    myCards._l.handlers.clear()
+    logging.shutdown()
 
 
 
